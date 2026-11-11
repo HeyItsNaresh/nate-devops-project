@@ -1,0 +1,116 @@
+Wed Nov 11 03:01:50 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:01:56 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:01 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:06 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:12 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:17 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:22 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:28 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:33 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:39 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:44 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:49 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:02:55 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:03:00 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:03:05 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           84Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           114Mi           
+Wed Nov 11 03:03:11 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:16 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:21 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:26 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:32 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:37 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:42 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:48 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:53 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:03:58 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:04:04 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            32m          87Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   382m         131Mi           
+Wed Nov 11 03:04:09 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            5m           86Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   126m         102Mi           
+Wed Nov 11 03:04:14 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            5m           86Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   126m         102Mi           
+Wed Nov 11 03:04:20 CET 2026
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            5m           86Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   126m         102Mi           

@@ -1,0 +1,74 @@
+Name:             nate-rails-deployment-7cbd9bb4fd-5dfc9
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Wed, 11 Nov 2026 02:06:08 +0100
+Labels:           app=nate-rails
+                  pod-template-hash=7cbd9bb4fd
+Annotations:      <none>
+Status:           Running
+IP:               10.244.0.4
+IPs:
+  IP:           10.244.0.4
+Controlled By:  ReplicaSet/nate-rails-deployment-7cbd9bb4fd
+Containers:
+  nate-rails:
+    Container ID:   containerd://db0f7d78408ddc2c52b98ab02b5b2008aea00af144ab1ed11452b0f925ae2bd1
+    Image:          nate-rails-app:latest
+    Image ID:       sha256:6cbf12a098b60a9616fa46d098bb50ab7c0701c8597e6b40388bdb315414c095
+    Port:           3000/TCP
+    Host Port:      0/TCP
+    State:          Running
+      Started:      Wed, 11 Nov 2026 03:03:12 +0100
+    Last State:     Terminated
+      Reason:       Error
+      Exit Code:    1
+      Started:      Wed, 11 Nov 2026 02:06:09 +0100
+      Finished:     Wed, 11 Nov 2026 03:03:11 +0100
+    Ready:          True
+    Restart Count:  1
+    Limits:
+      cpu:     500m
+      memory:  512Mi
+    Requests:
+      cpu:      100m
+      memory:   256Mi
+    Liveness:   http-get http://:3000/up delay=30s timeout=1s period=20s #success=1 #failure=3
+    Readiness:  http-get http://:3000/up delay=10s timeout=1s period=10s #success=1 #failure=3
+    Environment:
+      RAILS_ENV:              production
+      DB_HOST:                nate-mariadb
+      DB_PORT:                3306
+      DB_USER:                nate_devops_user
+      DB_PASSWORD:            <set to the key 'db-password' in secret 'nate-db-secret'>  Optional: false
+      SECRET_KEY_BASE_DUMMY:  1
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-h8tln (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-h8tln:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   Burstable
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                  From     Message
+  ----     ------     ----                 ----     -------
+  Warning  Unhealthy  9m58s (x3 over 10m)  kubelet  spec.containers{nate-rails}: Liveness probe failed: Get "http://10.244.0.4:3000/up": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Normal   Killing    9m58s                kubelet  spec.containers{nate-rails}: Container nate-rails failed liveness probe, will be restarted
+  Warning  Unhealthy  9m57s (x6 over 10m)  kubelet  spec.containers{nate-rails}: Readiness probe failed: Get "http://10.244.0.4:3000/up": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+  Normal   Pulled     9m55s (x2 over 66m)  kubelet  spec.containers{nate-rails}: Container image "nate-rails-app:latest" already present on machine and can be accessed by the pod
+  Normal   Created    9m55s (x2 over 66m)  kubelet  spec.containers{nate-rails}: Container created
+  Normal   Started    9m55s (x2 over 66m)  kubelet  spec.containers{nate-rails}: Container started

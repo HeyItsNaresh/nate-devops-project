@@ -1,0 +1,3 @@
+NAME                                     READY   STATUS    RESTARTS      AGE
+nate-mariadb-84cbcff8db-wfz5q            1/1     Running   0             74m
+nate-rails-deployment-7cbd9bb4fd-5dfc9   1/1     Running   1 (10m ago)   67m

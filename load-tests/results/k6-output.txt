@@ -1,0 +1,1121 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+
+     execution: local
+        script: load-tests/load-test.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 500 max VUs, 1m30s max duration (incl. graceful stop):
+              * default: Up to 500 looping VUs for 1m0s over 4 stages (gracefulRampDown: 30s, gracefulStop: 30s)
+
+
+running (0m00.8s), 009/500 VUs, 0 complete and 0 interrupted iterations
+default   [   1% ] 009/500 VUs  0m00.8s/1m00.0s
+
+running (0m01.8s), 019/500 VUs, 1 complete and 0 interrupted iterations
+default   [   3% ] 019/500 VUs  0m01.8s/1m00.0s
+
+running (0m02.8s), 028/500 VUs, 4 complete and 0 interrupted iterations
+default   [   5% ] 028/500 VUs  0m02.8s/1m00.0s
+
+running (0m03.8s), 038/500 VUs, 8 complete and 0 interrupted iterations
+default   [   6% ] 038/500 VUs  0m03.8s/1m00.0s
+
+running (0m04.8s), 048/500 VUs, 12 complete and 0 interrupted iterations
+default   [   8% ] 048/500 VUs  0m04.8s/1m00.0s
+
+running (0m05.8s), 058/500 VUs, 19 complete and 0 interrupted iterations
+default   [  10% ] 058/500 VUs  0m05.8s/1m00.0s
+
+running (0m06.8s), 068/500 VUs, 24 complete and 0 interrupted iterations
+default   [  11% ] 068/500 VUs  0m06.8s/1m00.0s
+
+running (0m07.8s), 078/500 VUs, 30 complete and 0 interrupted iterations
+default   [  13% ] 078/500 VUs  0m07.8s/1m00.0s
+
+running (0m08.8s), 088/500 VUs, 36 complete and 0 interrupted iterations
+default   [  15% ] 088/500 VUs  0m08.8s/1m00.0s
+
+running (0m09.8s), 098/500 VUs, 42 complete and 0 interrupted iterations
+default   [  16% ] 098/500 VUs  0m09.8s/1m00.0s
+
+running (0m10.8s), 133/500 VUs, 50 complete and 0 interrupted iterations
+default   [  18% ] 133/500 VUs  0m10.8s/1m00.0s
+
+running (0m11.8s), 173/500 VUs, 55 complete and 0 interrupted iterations
+default   [  20% ] 173/500 VUs  0m11.8s/1m00.0s
+
+running (0m12.8s), 213/500 VUs, 59 complete and 0 interrupted iterations
+default   [  21% ] 213/500 VUs  0m12.8s/1m00.0s
+
+running (0m13.8s), 253/500 VUs, 62 complete and 0 interrupted iterations
+default   [  23% ] 253/500 VUs  0m13.8s/1m00.0s
+
+running (0m14.8s), 293/500 VUs, 65 complete and 0 interrupted iterations
+default   [  25% ] 293/500 VUs  0m14.8s/1m00.0s
+
+running (0m15.8s), 333/500 VUs, 70 complete and 0 interrupted iterations
+default   [  26% ] 333/500 VUs  0m15.8s/1m00.0s
+
+running (0m16.8s), 373/500 VUs, 73 complete and 0 interrupted iterations
+default   [  28% ] 373/500 VUs  0m16.8s/1m00.0s
+
+running (0m17.8s), 413/500 VUs, 75 complete and 0 interrupted iterations
+default   [  30% ] 413/500 VUs  0m17.8s/1m00.0s
+
+running (0m18.8s), 453/500 VUs, 76 complete and 0 interrupted iterations
+default   [  31% ] 453/500 VUs  0m18.8s/1m00.0s
+
+running (0m19.8s), 493/500 VUs, 77 complete and 0 interrupted iterations
+default   [  33% ] 493/500 VUs  0m19.8s/1m00.0s
+
+running (0m20.8s), 500/500 VUs, 79 complete and 0 interrupted iterations
+default   [  35% ] 500/500 VUs  0m20.8s/1m00.0s
+
+running (0m21.8s), 500/500 VUs, 81 complete and 0 interrupted iterations
+default   [  36% ] 500/500 VUs  0m21.8s/1m00.0s
+
+running (0m22.8s), 500/500 VUs, 82 complete and 0 interrupted iterations
+default   [  38% ] 500/500 VUs  0m22.8s/1m00.0s
+
+running (0m23.8s), 500/500 VUs, 83 complete and 0 interrupted iterations
+default   [  40% ] 500/500 VUs  0m23.8s/1m00.0s
+
+running (0m24.8s), 500/500 VUs, 84 complete and 0 interrupted iterations
+default   [  41% ] 500/500 VUs  0m24.8s/1m00.0s
+
+running (0m25.8s), 500/500 VUs, 87 complete and 0 interrupted iterations
+default   [  43% ] 500/500 VUs  0m25.8s/1m00.0s
+
+running (0m26.8s), 500/500 VUs, 88 complete and 0 interrupted iterations
+default   [  45% ] 500/500 VUs  0m26.8s/1m00.0s
+
+running (0m27.8s), 500/500 VUs, 90 complete and 0 interrupted iterations
+default   [  46% ] 500/500 VUs  0m27.8s/1m00.0s
+
+running (0m28.8s), 500/500 VUs, 92 complete and 0 interrupted iterations
+default   [  48% ] 500/500 VUs  0m28.8s/1m00.0s
+
+running (0m29.8s), 500/500 VUs, 94 complete and 0 interrupted iterations
+default   [  50% ] 500/500 VUs  0m29.8s/1m00.0s
+
+running (0m30.8s), 500/500 VUs, 95 complete and 0 interrupted iterations
+default   [  51% ] 500/500 VUs  0m30.8s/1m00.0s
+
+running (0m31.8s), 500/500 VUs, 96 complete and 0 interrupted iterations
+default   [  53% ] 500/500 VUs  0m31.8s/1m00.0s
+
+running (0m32.8s), 500/500 VUs, 96 complete and 0 interrupted iterations
+default   [  55% ] 500/500 VUs  0m32.8s/1m00.0s
+
+running (0m33.8s), 500/500 VUs, 96 complete and 0 interrupted iterations
+default   [  56% ] 500/500 VUs  0m33.8s/1m00.0s
+
+running (0m34.8s), 500/500 VUs, 98 complete and 0 interrupted iterations
+default   [  58% ] 500/500 VUs  0m34.8s/1m00.0s
+
+running (0m35.8s), 500/500 VUs, 100 complete and 0 interrupted iterations
+default   [  60% ] 500/500 VUs  0m35.8s/1m00.0s
+
+running (0m36.8s), 500/500 VUs, 101 complete and 0 interrupted iterations
+default   [  61% ] 500/500 VUs  0m36.8s/1m00.0s
+
+running (0m37.8s), 500/500 VUs, 101 complete and 0 interrupted iterations
+default   [  63% ] 500/500 VUs  0m37.8s/1m00.0s
+
+running (0m38.8s), 500/500 VUs, 102 complete and 0 interrupted iterations
+default   [  65% ] 500/500 VUs  0m38.8s/1m00.0s
+
+running (0m39.8s), 500/500 VUs, 102 complete and 0 interrupted iterations
+default   [  66% ] 500/500 VUs  0m39.8s/1m00.0s
+
+running (0m40.8s), 500/500 VUs, 103 complete and 0 interrupted iterations
+default   [  68% ] 500/500 VUs  0m40.8s/1m00.0s
+
+running (0m41.8s), 500/500 VUs, 103 complete and 0 interrupted iterations
+default   [  70% ] 500/500 VUs  0m41.8s/1m00.0s
+
+running (0m42.8s), 500/500 VUs, 103 complete and 0 interrupted iterations
+default   [  71% ] 500/500 VUs  0m42.8s/1m00.0s
+
+running (0m43.8s), 500/500 VUs, 105 complete and 0 interrupted iterations
+default   [  73% ] 500/500 VUs  0m43.8s/1m00.0s
+
+running (0m44.8s), 500/500 VUs, 105 complete and 0 interrupted iterations
+default   [  75% ] 500/500 VUs  0m44.8s/1m00.0s
+
+running (0m45.8s), 500/500 VUs, 106 complete and 0 interrupted iterations
+default   [  76% ] 500/500 VUs  0m45.8s/1m00.0s
+
+running (0m46.8s), 500/500 VUs, 107 complete and 0 interrupted iterations
+default   [  78% ] 500/500 VUs  0m46.8s/1m00.0s
+
+running (0m47.8s), 500/500 VUs, 109 complete and 0 interrupted iterations
+default   [  80% ] 500/500 VUs  0m47.8s/1m00.0s
+
+running (0m48.8s), 500/500 VUs, 111 complete and 0 interrupted iterations
+default   [  81% ] 500/500 VUs  0m48.8s/1m00.0s
+
+running (0m49.8s), 500/500 VUs, 111 complete and 0 interrupted iterations
+default   [  83% ] 500/500 VUs  0m49.8s/1m00.0s
+
+running (0m50.8s), 500/500 VUs, 111 complete and 0 interrupted iterations
+default   [  85% ] 500/500 VUs  0m50.8s/1m00.0s
+
+running (0m51.8s), 500/500 VUs, 112 complete and 0 interrupted iterations
+default   [  86% ] 500/500 VUs  0m51.8s/1m00.0s
+
+running (0m52.8s), 500/500 VUs, 113 complete and 0 interrupted iterations
+default   [  88% ] 500/500 VUs  0m52.8s/1m00.0s
+
+running (0m53.8s), 500/500 VUs, 114 complete and 0 interrupted iterations
+default   [  90% ] 500/500 VUs  0m53.8s/1m00.0s
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/189\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/134\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/197\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/226\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/163\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/136\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/191\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/186\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/415\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/217\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/202\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/225\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/121\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/148\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/159\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/223\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/181\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/176\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/205\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/127\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/146\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/185\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/133\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/140\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/142\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/128\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/183\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/192\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/153\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/214\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/160\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/182\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/203\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/215\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/169\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/145\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/224\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/187\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/139\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/206\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/208\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/116\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/196\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/122\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/164\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/138\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/201\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/135\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/188\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/194\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/177\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/219\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/175\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/149\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/156\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/152\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/184\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/220\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/195\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/158\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/174\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/213\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/124\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/207\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/190\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/210\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/161\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/151\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/221\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/172\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/126\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/216\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/165\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/154\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/147\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/171\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/199\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/162\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/132\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/137\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/168\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/143\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/212\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/130\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/157\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/193\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/200\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/150\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/155\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/173\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/222\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/204\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/166\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/198\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/123\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/119\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/118\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/125\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/144\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/211\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/179\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/131\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/117\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/129\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/170\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/218\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/178\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/120\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/209\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/167\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/180\": EOF"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/415\": read tcp 172.28.110.95:56410->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/402\": read tcp 172.28.110.95:56508->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56600->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/254\": read tcp 172.28.110.95:56544->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/255\": read tcp 172.28.110.95:56344->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/250\": read tcp 172.28.110.95:56500->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/197\": read tcp 172.28.110.95:56556->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56382->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/406\": read tcp 172.28.110.95:56646->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56304->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56516->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/148\": read tcp 172.28.110.95:56574->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/205\": read tcp 172.28.110.95:56620->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/159\": read tcp 172.28.110.95:56572->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56336->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/308\": read tcp 172.28.110.95:56472->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/379\": read tcp 172.28.110.95:56644->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56522->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/202\": read tcp 172.28.110.95:56440->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/146\": read tcp 172.28.110.95:56664->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/176\": read tcp 172.28.110.95:56608->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/401\": read tcp 172.28.110.95:56742->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56758->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56662->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56598->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/246\": read tcp 172.28.110.95:56714->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/338\": read tcp 172.28.110.95:56254->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/403\": read tcp 172.28.110.95:56630->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/185\": read tcp 172.28.110.95:56712->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/258\": read tcp 172.28.110.95:56756->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/181\": read tcp 172.28.110.95:56594->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/377\": read tcp 172.28.110.95:56358->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56306->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/253\": read tcp 172.28.110.95:56590->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56624->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/257\": read tcp 172.28.110.95:56696->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56736->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/274\": read tcp 172.28.110.95:56640->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/275\": read tcp 172.28.110.95:57268->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57126->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/145\": read tcp 172.28.110.95:57162->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/320\": read tcp 172.28.110.95:56234->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57472->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56210->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/303\": read tcp 172.28.110.95:56778->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/347\": read tcp 172.28.110.95:57358->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57488->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/356\": read tcp 172.28.110.95:57538->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56920->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/208\": read tcp 172.28.110.95:57456->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56258->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56808->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57582->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/321\": read tcp 172.28.110.95:56846->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/206\": read tcp 172.28.110.95:57446->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/276\": read tcp 172.28.110.95:57532->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/301\": read tcp 172.28.110.95:57036->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/374\": read tcp 172.28.110.95:56892->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56932->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/340\": read tcp 172.28.110.95:57512->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/339\": read tcp 172.28.110.95:57188->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57632->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/215\": read tcp 172.28.110.95:57064->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57048->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56524->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/412\": read tcp 172.28.110.95:57370->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56578->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/182\": read tcp 172.28.110.95:57004->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/318\": read tcp 172.28.110.95:57290->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/327\": read tcp 172.28.110.95:57248->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56816->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/225\": read tcp 172.28.110.95:56450->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/361\": read tcp 172.28.110.95:57378->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/343\": read tcp 172.28.110.95:57018->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/378\": read tcp 172.28.110.95:56996->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/292\": read tcp 172.28.110.95:56328->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/243\": read tcp 172.28.110.95:57300->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57648->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/391\": read tcp 172.28.110.95:57600->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/224\": read tcp 172.28.110.95:57274->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/286\": read tcp 172.28.110.95:57394->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56760->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/234\": read tcp 172.28.110.95:57346->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56286->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/365\": read tcp 172.28.110.95:56308->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57372->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57702->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/187\": read tcp 172.28.110.95:57340->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56832->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/289\": read tcp 172.28.110.95:57490->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/310\": read tcp 172.28.110.95:57602->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56294->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/324\": read tcp 172.28.110.95:56680->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57460->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57424->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57420->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/203\": read tcp 172.28.110.95:57088->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/316\": read tcp 172.28.110.95:56962->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57272->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57336->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/217\": read tcp 172.28.110.95:56426->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/397\": read tcp 172.28.110.95:56904->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57752->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/331\": read tcp 172.28.110.95:56310->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/407\": read tcp 172.28.110.95:57730->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/259\": read tcp 172.28.110.95:57262->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56270->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/142\": read tcp 172.28.110.95:56774->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/285\": read tcp 172.28.110.95:57554->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/232\": read tcp 172.28.110.95:57406->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/214\": read tcp 172.28.110.95:56884->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57312->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57622->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/336\": read tcp 172.28.110.95:56942->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/300\": read tcp 172.28.110.95:57656->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/244\": read tcp 172.28.110.95:57392->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57100->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57500->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57440->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/362\": read tcp 172.28.110.95:57118->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/372\": read tcp 172.28.110.95:56652->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/248\": read tcp 172.28.110.95:57326->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56776->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/283\": read tcp 172.28.110.95:56852->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/196\": read tcp 172.28.110.95:57594->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/281\": read tcp 172.28.110.95:56990->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/386\": read tcp 172.28.110.95:56790->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57526->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/192\": read tcp 172.28.110.95:56876->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57226->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56840->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57150->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/160\": read tcp 172.28.110.95:56974->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56864->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56956->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57140->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/183\": read tcp 172.28.110.95:56810->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57020->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/305\": read tcp 172.28.110.95:56952->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57606->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57364->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57556->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/201\": read tcp 172.28.110.95:57776->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57818->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/278\": read tcp 172.28.110.95:57210->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56968->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/169\": read tcp 172.28.110.95:57110->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/163\": read tcp 172.28.110.95:56384->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/304\": read tcp 172.28.110.95:57722->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/363\": read tcp 172.28.110.95:57054->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/352\": read tcp 172.28.110.95:57542->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/164\": read tcp 172.28.110.95:57732->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/194\": read tcp 172.28.110.95:57870->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/223\": read tcp 172.28.110.95:56798->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/329\": read tcp 172.28.110.95:57852->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/393\": read tcp 172.28.110.95:56240->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57896->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/188\": read tcp 172.28.110.95:57834->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57864->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/191\": read tcp 172.28.110.95:56370->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/409\": read tcp 172.28.110.95:57768->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57686->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57114->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/373\": read tcp 172.28.110.95:57598->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/153\": read tcp 172.28.110.95:56880->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57682->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57194->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/226\": read tcp 172.28.110.95:57918->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57498->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57668->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57710->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/241\": read tcp 172.28.110.95:57944->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/353\": read tcp 172.28.110.95:57964->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57962->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57928->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/313\": read tcp 172.28.110.95:57660->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/219\": read tcp 172.28.110.95:57950->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57802->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57960->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/349\": read tcp 172.28.110.95:57236->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/177\": read tcp 172.28.110.95:57880->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/189\": read tcp 172.28.110.95:57074->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58004->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58036->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/149\": read tcp 172.28.110.95:58026->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58052->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/326\": read tcp 172.28.110.95:58108->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/345\": read tcp 172.28.110.95:56314->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/175\": read tcp 172.28.110.95:57986->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/220\": read tcp 172.28.110.95:58178->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/236\": read tcp 172.28.110.95:58124->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58138->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/261\": read tcp 172.28.110.95:58172->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/298\": read tcp 172.28.110.95:57996->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/344\": read tcp 172.28.110.95:57174->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/195\": read tcp 172.28.110.95:58180->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58080->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/156\": read tcp 172.28.110.95:58066->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58102->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/294\": read tcp 172.28.110.95:58170->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/400\": read tcp 172.28.110.95:57844->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58148->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/152\": read tcp 172.28.110.95:58168->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/314\": read tcp 172.28.110.95:57786->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58188->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57900->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/233\": read tcp 172.28.110.95:58028->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:58010->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/184\": read tcp 172.28.110.95:58162->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/242\": read tcp 172.28.110.95:58012->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:57906->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/342\": read tcp 172.28.110.95:58090->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/322\": read tcp 172.28.110.95:56246->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56394->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56200->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56456->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56220->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56284->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/264\": read tcp 172.28.110.95:56322->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56198->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/299\": read tcp 172.28.110.95:56166->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/266\": read tcp 172.28.110.95:56154->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/186\": read tcp 172.28.110.95:56404->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/388\": read tcp 172.28.110.95:56230->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/141\": read tcp 172.28.110.95:56100->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/416\": read tcp 172.28.110.95:56110->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/227\": read tcp 172.28.110.95:56142->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/390\": read tcp 172.28.110.95:56168->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/417\": read tcp 172.28.110.95:56114->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/364\": read tcp 172.28.110.95:56186->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/228\": read tcp 172.28.110.95:56128->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": read tcp 172.28.110.95:56488->172.28.96.1:3001: read: connection reset by peer"
+time="2026-11-11T03:03:10+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/360\": read tcp 172.28.110.95:56184->172.28.96.1:3001: read: connection reset by peer"
+
+running (0m54.8s), 500/500 VUs, 157 complete and 0 interrupted iterations
+default   [  91% ] 500/500 VUs  0m54.8s/1m00.0s
+
+running (0m55.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default   [  93% ] 500/500 VUs  0m55.8s/1m00.0s
+
+running (0m56.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default   [  95% ] 500/500 VUs  0m56.8s/1m00.0s
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/229\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/230\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/231\": request timeout"
+
+running (0m57.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default   [  96% ] 500/500 VUs  0m57.8s/1m00.0s
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:13+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/235\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/237\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/238\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/239\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (0m58.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default   [  98% ] 500/500 VUs  0m58.8s/1m00.0s
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/240\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:14+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/245\": request timeout"
+
+running (0m59.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default   [ 100% ] 500/500 VUs  0m59.8s/1m00.0s
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/247\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:15+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/249\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/251\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m00.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/252\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:16+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:17+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:17+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:17+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/256\": request timeout"
+
+running (1m01.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:17+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/260\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/262\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/263\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m02.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/265\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:18+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/267\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/268\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/269\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/270\": request timeout"
+
+running (1m03.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/271\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/272\": request timeout"
+time="2026-11-11T03:03:19+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/273\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m04.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/277\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:20+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/279\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/280\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/282\": request timeout"
+
+running (1m05.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/284\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:21+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/287\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/288\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m06.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/290\": request timeout"
+time="2026-11-11T03:03:22+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/291\": request timeout"
+time="2026-11-11T03:03:23+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:23+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/293\": request timeout"
+
+running (1m07.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:23+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/296\": request timeout"
+time="2026-11-11T03:03:23+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/295\": request timeout"
+time="2026-11-11T03:03:24+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/297\": request timeout"
+
+running (1m08.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:24+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/302\": request timeout"
+time="2026-11-11T03:03:24+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:25+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/306\": request timeout"
+
+running (1m09.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:25+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/307\": request timeout"
+time="2026-11-11T03:03:25+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/309\": request timeout"
+time="2026-11-11T03:03:25+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/311\": request timeout"
+time="2026-11-11T03:03:26+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/312\": request timeout"
+time="2026-11-11T03:03:26+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/315\": request timeout"
+time="2026-11-11T03:03:26+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/317\": request timeout"
+
+running (1m10.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:26+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/319\": request timeout"
+time="2026-11-11T03:03:27+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/323\": request timeout"
+time="2026-11-11T03:03:27+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m11.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:27+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/325\": request timeout"
+time="2026-11-11T03:03:28+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/328\": request timeout"
+time="2026-11-11T03:03:28+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/330\": request timeout"
+time="2026-11-11T03:03:28+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/332\": request timeout"
+
+running (1m12.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:28+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/333\": request timeout"
+time="2026-11-11T03:03:28+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/334\": request timeout"
+time="2026-11-11T03:03:29+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/335\": request timeout"
+time="2026-11-11T03:03:29+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/337\": request timeout"
+
+running (1m13.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:29+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/341\": request timeout"
+
+running (1m14.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:30+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/346\": request timeout"
+time="2026-11-11T03:03:30+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/348\": request timeout"
+time="2026-11-11T03:03:31+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/350\": request timeout"
+time="2026-11-11T03:03:31+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/351\": request timeout"
+
+running (1m15.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:31+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/355\": request timeout"
+time="2026-11-11T03:03:31+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/354\": request timeout"
+time="2026-11-11T03:03:32+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/357\": request timeout"
+time="2026-11-11T03:03:32+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/358\": request timeout"
+time="2026-11-11T03:03:32+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/359\": request timeout"
+
+running (1m16.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/367\": request timeout"
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/366\": request timeout"
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/368\": request timeout"
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/369\": request timeout"
+
+running (1m17.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/370\": request timeout"
+time="2026-11-11T03:03:33+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/371\": request timeout"
+time="2026-11-11T03:03:34+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/375\": request timeout"
+time="2026-11-11T03:03:34+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/376\": request timeout"
+
+running (1m18.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:34+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/380\": request timeout"
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/381\": request timeout"
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/382\": request timeout"
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/383\": request timeout"
+
+running (1m19.8s), 500/500 VUs, 202 complete and 0 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/385\": request timeout"
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/384\": request timeout"
+time="2026-11-11T03:03:35+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:36+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/387\": request timeout"
+time="2026-11-11T03:03:36+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/389\": request timeout"
+
+running (1m20.8s), 459/500 VUs, 202 complete and 41 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:36+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/392\": request timeout"
+time="2026-11-11T03:03:36+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/394\": request timeout"
+time="2026-11-11T03:03:36+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/395\": request timeout"
+time="2026-11-11T03:03:37+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/396\": request timeout"
+time="2026-11-11T03:03:37+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/398\": request timeout"
+time="2026-11-11T03:03:37+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/399\": request timeout"
+
+running (1m21.8s), 409/500 VUs, 202 complete and 91 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:38+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/404\": request timeout"
+time="2026-11-11T03:03:38+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/405\": request timeout"
+time="2026-11-11T03:03:38+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/408\": request timeout"
+
+running (1m22.8s), 359/500 VUs, 202 complete and 141 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:38+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/410\": request timeout"
+time="2026-11-11T03:03:38+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/411\": request timeout"
+
+running (1m23.8s), 309/500 VUs, 202 complete and 191 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/158\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/174\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/213\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/190\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/207\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/210\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/161\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/151\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/221\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/172\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/216\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/165\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/154\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/199\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/171\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/162\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/147\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/168\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/143\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/212\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/157\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/200\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/150\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/155\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/193\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/222\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/166\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/198\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/144\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/173\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/211\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/179\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/170\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/218\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/167\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/178\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/209\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/180\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/204\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/255\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/254\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/250\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/308\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/258\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/257\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/246\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/253\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/274\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/338\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/587\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/320\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/275\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/485\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/347\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/303\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/301\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/321\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/340\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/276\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/339\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/583\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/318\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/327\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/472\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/343\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/292\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/286\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/243\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/234\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/310\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/324\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/316\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/331\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/259\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/289\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/336\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/244\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/300\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/232\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/581\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/285\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/248\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/305\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/283\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/589\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/588\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/281\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/432\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/278\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/304\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/329\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/241\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/313\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/345\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/236\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/326\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/261\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/298\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/344\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/294\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/233\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/314\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/242\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/342\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/322\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/584\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/264\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/299\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/266\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/227\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/390\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Delete \"http://172.28.96.1:3001/items/228\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m24.8s), 210/500 VUs, 251 complete and 241 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": dial: i/o timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+time="2026-11-11T03:03:40+01:00" level=warning msg="Request Failed" error="Post \"http://172.28.96.1:3001/items\": request timeout"
+
+running (1m25.8s), 158/500 VUs, 253 complete and 291 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+
+running (1m26.8s), 113/500 VUs, 253 complete and 336 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:43+01:00" level=warning msg="Request Failed" error="Get \"http://172.28.96.1:3001/items/422\": request timeout"
+
+running (1m27.8s), 087/500 VUs, 253 complete and 362 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+time="2026-11-11T03:03:44+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/238\": request timeout"
+time="2026-11-11T03:03:44+01:00" level=warning msg="Request Failed" error="Put \"http://172.28.96.1:3001/items/239\": dial: i/o timeout"
+
+running (1m28.8s), 050/500 VUs, 253 complete and 399 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+
+running (1m29.8s), 006/500 VUs, 253 complete and 443 interrupted iterations
+default ↓ [ 100% ] 500/500 VUs  1m0s
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✗ 'rate>0.95' rate=65.73%
+
+    error_rate
+    ✓ 'rate<0.05' rate=0.00%
+
+    http_req_duration
+    ✗ 'p(95)<500' p(95)=29.97s
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 2259   25.111966/s
+    checks_succeeded...: 65.73% 1485 out of 2259
+    checks_failed......: 34.26% 774 out of 2259
+
+    ✗ create → 201
+      ↳  83% — ✓ 588 / ✗ 114
+    ✗ list → 200
+      ↳  67% — ✓ 416 / ✗ 198
+    ✗ read-one → 200
+      ↳  53% — ✓ 227 / ✗ 197
+    ✗ update → 200
+      ↳  47% — ✓ 140 / ✗ 152
+    ✗ delete → 200 or 204
+      ↳  50% — ✓ 114 / ✗ 113
+
+    CUSTOM
+    create_latency.................: avg=6.79s  min=0s     med=5.5s   max=26.93s p(90)=15.35s p(95)=16.36s
+    delete_latency.................: avg=4.67s  min=0s     med=1.06s  max=26.93s p(90)=17.79s p(95)=22.84s
+    error_rate.....................: 0.00%  0 out of 2259
+    items_created..................: 588    6.536448/s
+    list_latency...................: avg=12.31s min=0s     med=9.53s  max=29.99s p(90)=29.97s p(95)=29.97s
+    read_one_latency...............: avg=11.48s min=0s     med=3.7s   max=29.99s p(90)=29.99s p(95)=29.99s
+    update_latency.................: avg=6.6s   min=0s     med=2.08s  max=26.97s p(90)=21.08s p(95)=24s   
+
+    HTTP
+    http_req_duration..............: avg=8.93s  min=0s     med=4.52s  max=29.99s p(90)=26.05s p(95)=29.97s
+      { expected_response:true }...: avg=8.46s  min=68.2ms med=6.3s   max=27.07s p(90)=21.37s p(95)=23.86s
+    http_req_failed................: 34.26% 774 out of 2259
+    http_reqs......................: 2259   25.111966/s
+
+    EXECUTION
+    iteration_duration.............: avg=33.4s  min=1.63s  med=39.31s max=1m14s  p(90)=1m13s  p(95)=1m14s 
+    iterations.....................: 253    2.812451/s
+    vus............................: 6      min=6           max=500
+    vus_max........................: 500    min=500         max=500
+
+    NETWORK
+    data_received..................: 18 MB  197 kB/s
+    data_sent......................: 263 kB 2.9 kB/s
+
+
+
+
+running (1m30.0s), 000/500 VUs, 253 complete and 449 interrupted iterations
+default ✓ [ 100% ] 001/500 VUs  1m0s
+time="2026-11-11T03:03:46+01:00" level=error msg="thresholds on metrics 'checks, http_req_duration' have been crossed"

@@ -1,0 +1,69 @@
+# MariaDB storage
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: nate-mariadb-storage
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+# MariaDB deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nate-mariadb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nate-mariadb
+  template:
+    metadata:
+      labels:
+        app: nate-mariadb
+    spec:
+      containers:
+        - name: mariadb
+          image: mariadb:11.4
+          ports:
+            - containerPort: 3306
+          env:
+            - name: MARIADB_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: nate-db-secret
+                  key: root-password
+            - name: MARIADB_DATABASE
+              value: nate_database
+            - name: MARIADB_USER
+              value: nate_devops_user
+            - name: MARIADB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: nate-db-secret
+                  key: db-password
+          volumeMounts:
+            - name: database-storage
+              mountPath: /var/lib/mysql
+      volumes:
+        - name: database-storage
+          persistentVolumeClaim:
+            claimName: nate-mariadb-storage
+
+---
+# Internal MariaDB service
+apiVersion: v1
+kind: Service
+metadata:
+  name: nate-mariadb
+spec:
+  selector:
+    app: nate-mariadb
+  ports:
+    - port: 3306
+      targetPort: 3306
+  type: ClusterIP

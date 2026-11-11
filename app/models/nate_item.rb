@@ -1,0 +1,2 @@
+class NateItem < ApplicationRecord
+end

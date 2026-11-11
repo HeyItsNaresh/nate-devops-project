@@ -1,0 +1,3 @@
+NAME                                     CPU(cores)   MEMORY(bytes)   
+nate-mariadb-84cbcff8db-wfz5q            1m           85Mi            
+nate-rails-deployment-7cbd9bb4fd-5dfc9   2m           108Mi           

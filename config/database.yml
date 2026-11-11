@@ -1,0 +1,29 @@
+# Database configuration for Nate's DevOps Final Project
+# Database: MariaDB
+# Framework: Ruby on Rails
+
+default: &default
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS", 5) %>
+
+  # MariaDB connection settings
+  host: <%= ENV.fetch("DB_HOST", "127.0.0.1") %>
+  port: <%= ENV.fetch("DB_PORT", 3306) %>
+  username: <%= ENV.fetch("DB_USER", "nate_devops_user") %>
+  password: <%= ENV.fetch("DB_PASSWORD", "") %>
+
+# Development database
+development:
+  <<: *default
+  database: nate_database_development
+
+# Test database
+test:
+  <<: *default
+  database: nate_database_test
+
+# Production database used by Docker and Kubernetes
+production:
+  <<: *default
+  database: nate_database

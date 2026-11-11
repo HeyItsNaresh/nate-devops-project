@@ -1,0 +1,54 @@
+services:
+  app:
+    image: nate-rails-app:latest
+    container_name: nate_rails_app
+
+    environment:
+      RAILS_ENV: production
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_USER: nate_devops_user
+      DB_PASSWORD: ${DB_PASSWORD}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE}
+
+    ports:
+      - "3000:3000"
+
+    depends_on:
+      - db
+
+    networks:
+      - nate_devops_network
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/up"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  db:
+    image: mariadb:11.4
+    container_name: nate_mariadb
+
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+      MARIADB_DATABASE: nate_database
+      MARIADB_USER: nate_devops_user
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+
+    ports:
+      - "127.0.0.1:3307:3306"
+
+    volumes:
+      - nate_db_data:/var/lib/mysql
+
+    networks:
+      - nate_devops_network
+
+volumes:
+  nate_db_data:
+
+networks:
+  nate_devops_network:
+    driver: bridge
